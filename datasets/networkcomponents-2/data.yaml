@@ -1,0 +1,13 @@
+train: ../datasets/networkcomponents-2/train/images
+val: ../datasets/networkcomponents-2/valid/images
+test: ../datasets/networkcomponents-2/test/images
+
+nc: 6
+names: ['Client', 'Database', 'Firewall', 'Router', 'Server', 'WebServer']
+
+roboflow:
+  workspace: cybersecurityproject
+  project: networkcomponents
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cybersecurityproject/networkcomponents/dataset/2

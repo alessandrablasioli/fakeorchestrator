@@ -1,0 +1,8 @@
+
+            FROM ubuntu:latest
+
+            # Example commands to install and configure a server (e.g., Apache)
+            RUN apt-get update && apt-get install -y apache2
+            CMD ["tail", "-f", "/dev/null"]
+
+            

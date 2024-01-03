@@ -1,0 +1,9 @@
+{
+  "services": {
+    "server": "alessandrablasioli/my_server_image:latest",
+    "client": "alessandrablasioli/my_client_image:latest",
+    "firewall": "alessandrablasioli/my_firewall_image:latest",
+    "database": "alessandrablasioli/my_database_image:latest",
+    "webserver": "alessandrablasioli/my_webserver_image:latest"
+  }
+}

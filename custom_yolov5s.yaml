@@ -1,0 +1,19 @@
+
+    nc: 6
+    depth_multiple: 0.33
+    width_multiple: 0.50
+    anchors:
+      - [10,13, 16,30, 33,23]
+      - [30,61, 62,45, 59,119]
+      - [116,90, 156,198, 373,326]
+    transforms: 
+    - mosaic: True  # Esempio di trasformazione di tipo mosaico
+    - hsv_h: 0.015  # Esempio di regolazione dell'istogramma dei valori H, S e V
+    - hsv_s: 0.7
+    - hsv_v: 0.4
+    - degrees: 0    # Esempio di rotazione
+    - translate: 0.1 # Esempio di traslazione
+    - scale: 0.5     # Esempio di scala
+    - shear: 0.1 
+    ... 
+    

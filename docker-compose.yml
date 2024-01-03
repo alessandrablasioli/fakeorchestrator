@@ -1,0 +1,16 @@
+version: '3'
+services:
+  firewall:
+    image: alessandrablasioli/my_firewall_image:latest
+  client:
+    image: alessandrablasioli/my_client_image:latest
+  client-2:
+    image: alessandrablasioli/my_client_image:latest
+  database:
+    image: alessandrablasioli/my_database_image:latest
+  webserver:
+    image: alessandrablasioli/my_webserver_image:latest
+    ports:
+      - '8080:80'
+  server:
+    image: alessandrablasioli/my_server_image:latest

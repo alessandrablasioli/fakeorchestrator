@@ -1,0 +1,12 @@
+
+            FROM mysql:latest
+
+            # Set root user password
+            ENV MYSQL_ROOT_PASSWORD=your_password
+
+            # Copy SQL scripts into the container
+            COPY ./initialization_script.sql /docker-entrypoint-initdb.d/
+
+            # Start MySQL server
+            CMD ["mysqld"]
+            

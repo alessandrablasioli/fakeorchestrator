@@ -1,0 +1,17 @@
+names:
+- Client
+- Database
+- Firewall
+- Router
+- Server
+- WebServer
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: networkcomponents
+  url: https://universe.roboflow.com/cybersecurityproject/networkcomponents/dataset/3
+  version: 3
+  workspace: cybersecurityproject
+test: ../test/images
+train: networkcomponents-3/train/images
+val: networkcomponents-3/valid/images

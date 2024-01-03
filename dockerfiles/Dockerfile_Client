@@ -1,0 +1,11 @@
+
+            FROM ubuntu:latest
+
+            # Installa il software del client (esempio: SSH client)
+            RUN apt-get update && apt-get install -y openssh-client
+
+
+            # Esempio di comando che mantiene il container in esecuzione
+            CMD ["tail", "-f", "/dev/null"]
+
+            

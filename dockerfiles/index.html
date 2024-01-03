@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Emporium - Welcome</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffd6e0;
+            text-align: center;
+            padding: 40px 0;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            text-align: center;
+        }
+        form label {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        form input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+        }
+        form input[type="submit"] {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #ffd6e0;
+            border: none;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .item {
+            background-color: #fff;
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+        }
+        footer {
+            background-color: #ffd6e0;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Flower Emporium</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="userInput">Enter your name:</label>
+            <input type="text" id="userInput" name="userInput">
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2>About Flower Emporium</h2>
+        <p>Flower Emporium is a haven for flower lovers. We offer a wide selection of beautiful flowers, handpicked from the finest gardens. From vibrant roses to delicate tulips, we have something for every occasion.</p>
+        <p>Our passion for flowers drives us to deliver exceptional quality and service. Join us in celebrating the beauty of nature with our exquisite collection.</p>
+    </main>
+
+    <div class="container">
+        <div class="item">
+            <img src="https://i.pinimg.com/564x/64/e4/82/64e482e5de5423cb0033e53bf39527bc.jpg" alt="Flower Bouquet">
+            <h2>Beautiful Bouquet</h2>
+            <p>$25.99</p>
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/564x/ed/2b/30/ed2b301f19a5d83a6311c323e6f3272e.jpg" alt="Potted Plant">
+            <h2>Green Delight</h2>
+            <p>$19.99</p>
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/564x/02/a2/00/02a2005672229549e966262efe34f7a2.jpg" alt="Flower Arrangement">
+            <h2>Exquisite Arrangement</h2>
+            <p>$35.99</p>
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/564x/ac/97/50/ac97501e8927f346761978bbbe661669.jpg" alt="Blossoming Plant">
+            <h2>Blooming Bliss</h2>
+            <p>$29.99</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact us at: <span id="email">info@floweremporium.com</span></p>
+    </footer>
+</body>
+</html>

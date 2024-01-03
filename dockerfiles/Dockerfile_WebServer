@@ -1,0 +1,9 @@
+
+            FROM nginx:latest
+
+            # Example commands to configure a web server (e.g., Nginx)
+            # Replace 'index.html' with your main HTML file
+            COPY dockerfiles/index.html /usr/share/nginx/html/index.html
+            EXPOSE 8080
+            CMD ["nginx", "-g", "daemon off;"]
+            

@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  firewall--2:
+    image: my-firewall-image:latest
+    # Add any other necessary configurations
+
+  client--2:
+    image: my-client-image:latest
+    # Add any other necessary configurations
+
+  client--2:
+    image: my-client-image:latest
+    # Add any other necessary configurations
+
+  database--2:
+    image: my-database-image:latest
+    # Add any other necessary configurations
+
+  webserver--2:
+    image: my-webserver-image:latest
+    # Add any other necessary configurations
+
+  server--2:
+    image: my-server-image:latest
+    # Add any other necessary configurations
+
