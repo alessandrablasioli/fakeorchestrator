@@ -30,7 +30,7 @@ Open a terminal or command prompt and move into the downloaded directory:
 
         cd /fakeorchestrator
 
-4. **Run the Notebook:**
+4. **Run the python file:**
 Execute the code by running the following commmand:
 
 
