@@ -1,6 +1,8 @@
 ## Fake Architecture Orchestrator
 This project was developed as part of the coursework for the Cybersecurity module of the Master's degree in Computer Engineering at the University of Bologna.
 
+
+## Abstract
 The strategic use of deceptive defense has been proposed by cybersecurity experts as a method to exploit the typically enjoyed informational asymmetry of attackers, turning it into a tool favoring defenders. This strategy involves creating fake services and components that appear similar to valuable targets for aggressors, aiming to divert attackers’ attention and resources away from critical assets. This project aims to easily instantiate a complex fake infrastructure from an architectural diagram, providing a tangible opportunity to implement and evaluate the deceptive defense strategy within the realm of cybersecurity.
 
 ## Table of Contents
