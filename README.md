@@ -13,7 +13,7 @@ The strategic use of deceptive defense has been proposed by cybersecurity expert
 
 ## Description
 
-To read a detailed explanation of the project open [the report]().
+To read a detailed explanation of the project open [the report](https://github.com/alessandrablasioli/fakeorchestrator/blob/main/Fake_Architecture_Orchestrator%20(3).pdf).
 
 ## Usage
 
